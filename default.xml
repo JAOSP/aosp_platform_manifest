@@ -6,7 +6,7 @@
   <default revision="master"
            remote="korg" />
 
-  <project path="build" name="platform/build">
+  <project path="build" name="platform/build" revision="cdma-import">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -18,12 +18,12 @@
   <project path="bootloader/legacy" name="platform/bootloader/legacy" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
-  <project path="frameworks/base" name="platform/frameworks/base" />
+  <project path="frameworks/base" name="platform/frameworks/base" revision="cdma-import" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" />
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" />
-  <project path="frameworks/policies/base" name="platform/frameworks/policies/base" />
+  <project path="frameworks/policies/base" name="platform/frameworks/policies/base" revision="cdma-import" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/ril" name="platform/hardware/ril" />
+  <project path="hardware/ril" name="platform/hardware/ril" revision="cdma-import" />
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="recovery" name="platform/recovery" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
@@ -55,8 +55,8 @@
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
+  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" revision="cdma-import" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="cdma-import" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Sync" name="platform/packages/apps/Sync" />
@@ -277,7 +277,7 @@
 
   <project path="external/sonivox" name="platform/external/sonivox" />
 
-  <project path="external/sqlite" name="platform/external/sqlite">
+  <project path="external/sqlite" name="platform/external/sqlite" revision="cdma-import">
     <import>
       <remap strip="sqlite-%version%/" insert="dist/" />
       <mirror url="http://android.git.kernel.org/pub/sqlite-amalgamation-%version%.tar.gz" />
