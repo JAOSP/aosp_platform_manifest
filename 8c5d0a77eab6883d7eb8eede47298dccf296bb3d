@@ -1,0 +1,8 @@
+Change-Id: I8c5d0a77eab6883d7eb8eede47298dccf296bb3d
+Code-Review+2: Jean-Baptiste Queru <jbq@google.com>
+Verified+1: Jean-Baptiste Queru <jbq@google.com>
+Submitted-by: Jean-Baptiste Queru <jbq@google.com>
+Submitted-at: Tue, 17 Aug 2010 10:26:52 -0700
+Reviewed-on: https://review.source.android.com/16517
+Project: platform/manifest
+Branch: refs/heads/master

@@ -1,0 +1,8 @@
+Change-Id: I67ad83f940f6534ecf96a87027f000de8d5df48c
+Code-Review+2: Jean-Baptiste Queru <jbq@google.com>
+Verified+1: Jean-Baptiste Queru <jbq@google.com>
+Submitted-by: Jean-Baptiste Queru <jbq@google.com>
+Submitted-at: Fri, 17 Dec 2010 19:31:02 -0700
+Reviewed-on: https://review.source.android.com/19561
+Project: platform/manifest
+Branch: refs/heads/gingerbread

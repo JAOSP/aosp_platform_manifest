@@ -1,0 +1,8 @@
+Change-Id: I1d9b0f0126670c1f4191efc21ae9f82c44c7c9a0
+Code-Review+2: Jean-Baptiste Queru <jbq@google.com>
+Verified+1: Jean-Baptiste Queru <jbq@google.com>
+Submitted-by: Jean-Baptiste Queru <jbq@google.com>
+Submitted-at: Mon, 30 Nov 2009 08:31:12 -0700
+Reviewed-on: https://review.source.android.com/12674
+Project: platform/manifest
+Branch: refs/heads/donut-plus-aosp

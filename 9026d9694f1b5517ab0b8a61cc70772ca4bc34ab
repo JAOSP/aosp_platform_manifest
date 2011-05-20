@@ -1,0 +1,8 @@
+Change-Id: I9026d9694f1b5517ab0b8a61cc70772ca4bc34ab
+Code-Review+2: Jean-Baptiste Queru <jbq@google.com>
+Verified+1: Jean-Baptiste Queru <jbq@google.com>
+Submitted-by: Jean-Baptiste Queru <jbq@google.com>
+Submitted-at: Fri, 09 Oct 2009 17:07:47 -0700
+Reviewed-on: https://review.source.android.com/12169
+Project: platform/manifest
+Branch: refs/heads/donut

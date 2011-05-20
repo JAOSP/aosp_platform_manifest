@@ -1,0 +1,8 @@
+Change-Id: Ia3bca5c9aed1dd2c243b3c2fd5e30ee3fa800333
+Code-Review+2: Jean-Baptiste Queru <jbq@google.com>
+Verified+1: Jean-Baptiste Queru <jbq@google.com>
+Submitted-by: Jean-Baptiste Queru <jbq@google.com>
+Submitted-at: Thu, 12 May 2011 15:22:55 -0700
+Reviewed-on: https://review.source.android.com/22833
+Project: platform/manifest
+Branch: refs/heads/tools-adt_r11

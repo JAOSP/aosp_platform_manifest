@@ -1,0 +1,8 @@
+Change-Id: Icae47df8db8d6beac68f8c8ca6e0beb40953d7d7
+Code-Review+2: Jean-Baptiste Queru <jbq@google.com>
+Verified+1: Jean-Baptiste Queru <jbq@google.com>
+Submitted-by: Jean-Baptiste Queru <jbq@google.com>
+Submitted-at: Sun, 15 Nov 2009 17:34:39 -0700
+Reviewed-on: https://review.source.android.com/12590
+Project: platform/manifest
+Branch: refs/heads/eclair

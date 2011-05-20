@@ -1,0 +1,8 @@
+Change-Id: Icd700ff58fb2d8de0988f17adbb42286a5e421ff
+Code-Review+2: Jean-Baptiste Queru <jbq@google.com>
+Verified+1: Jean-Baptiste Queru <jbq@google.com>
+Submitted-by: Jean-Baptiste Queru <jbq@google.com>
+Submitted-at: Tue, 10 May 2011 14:32:07 -0700
+Reviewed-on: https://review.source.android.com/22782
+Project: platform/manifest
+Branch: refs/heads/gingerbread

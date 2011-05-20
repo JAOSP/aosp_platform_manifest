@@ -1,0 +1,5 @@
+Change-Id: I50451bce59896976a0dc6ddda9f4a03b6af419f6
+Code-Review+2: Jeff Hamilton <jham@google.com>
+Reviewed-on: https://review.source.android.com/1789
+Project: platform/manifest
+Branch: refs/heads/cdma-import

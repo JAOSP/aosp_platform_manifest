@@ -1,0 +1,8 @@
+Change-Id: I218ebce02f691921fa7bcc9264abfb047f50e1dd
+Code-Review+2: Jean-Baptiste Queru <jbq@google.com>
+Verified+1: Jean-Baptiste Queru <jbq@google.com>
+Submitted-by: Jean-Baptiste Queru <jbq@google.com>
+Submitted-at: Tue, 17 Aug 2010 13:29:36 -0700
+Reviewed-on: https://review.source.android.com/16520
+Project: platform/manifest
+Branch: refs/heads/froyo
