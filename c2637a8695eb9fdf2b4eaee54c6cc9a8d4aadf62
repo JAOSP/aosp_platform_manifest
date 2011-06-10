@@ -1,0 +1,8 @@
+Change-Id: Ic2637a8695eb9fdf2b4eaee54c6cc9a8d4aadf62
+Code-Review+2: Jean-Baptiste Queru <jbq@google.com>
+Verified+1: Jean-Baptiste Queru <jbq@google.com>
+Submitted-by: Jean-Baptiste Queru <jbq@google.com>
+Submitted-at: Fri, 10 Jun 2011 15:57:12 -0700
+Reviewed-on: https://review.source.android.com/23672
+Project: platform/manifest
+Branch: refs/heads/android-cts-2.2_r6
