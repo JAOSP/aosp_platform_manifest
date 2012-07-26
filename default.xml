@@ -18,7 +18,6 @@
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
-  <project path="prebuilt" name="platform/prebuilt" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" />
 
 </manifest>
