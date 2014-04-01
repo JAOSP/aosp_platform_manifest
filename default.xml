@@ -31,6 +31,7 @@
   <project path="vendor/aosp/lge/mako" name="JAOSP/aosp_vendor_aosp_lge_mako" remote="jaosp" revision="aosp-kitkat" />
   <project path="vendor/aosp/samsung/maguro" name="JAOSP/aosp_vendor_aosp_samsung_maguro" remote="jaosp" revision="aosp-kitkat" />
   <project path="vendor/aosp/samsung/manta" name="JAOSP/aosp_vendor_aosp_samsung_manta" remote="jaosp" revision="aosp-kitkat" />
+  <project path="vendor/aosp/ti/panda" name="JAOSP/aosp_vendor_aosp_ti_panda" remote="jaosp" revision="aosp-kitkat" />
 
 <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
