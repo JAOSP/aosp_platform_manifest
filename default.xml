@@ -15,7 +15,6 @@
   </project>
   <project path="frameworks/base" name="JAOSP/aosp_platform_frameworks_base" remote="jaosp" revision="aosp-kitkat" />
   <project path="frameworks/native" name="JAOSP/aosp_platform_frameworks_native" remote="jaosp" revision="aosp-kitkat" />
-  <project path="external/chromium_org" name="JAOSP/aosp_platform_external_chromium_org" remote="jaosp" revision="aosp-kitkat" />
   <project path="device/asus/grouper" name="JAOSP/aosp_device_asus_grouper" remote="jaosp" revision="aosp-kitkat" />
   <project path="device/asus/flo" name="JAOSP/aosp_device_asus_flo" remote="jaosp" revision="aosp-kitkat" />
   <project path="device/lge/mako" name="JAOSP/aosp_device_lge_mako" remote="jaosp" revision="aosp-kitkat" />
@@ -86,6 +85,7 @@
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
+  <project path="external/chromium_org" name="platform/external/chromium_org" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
