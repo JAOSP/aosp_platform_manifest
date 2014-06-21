@@ -24,26 +24,6 @@
   <project path="build" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="frameworks/base" name="JAOSP/aosp_platform_frameworks_base" remote="jaosp" revision="aosp-master" />
-  <project path="frameworks/native" name="JAOSP/aosp_platform_frameworks_native" remote="jaosp" revision="aosp-master" />
-  <project path="device/asus/grouper" name="JAOSP/aosp_device_asus_grouper" remote="jaosp" revision="aosp-master" />
-  <project path="device/asus/flo" name="JAOSP/aosp_device_asus_flo" remote="jaosp" revision="aosp-master" />
-  <project path="device/lge/mako" name="JAOSP/aosp_device_lge_mako" remote="jaosp" revision="aosp-master" />
-  <project path="device/lge/hammerhead" name="JAOSP/aosp_device_lge_hammerhead" remote="jaosp" revision="aosp-master" />
-  <project path="device/samsung/maguro" name="JAOSP/aosp_device_samsung_maguro" remote="jaosp" revision="aosp-master" />
-  <project path="device/samsung/manta" name="JAOSP/aosp_device_samsung_manta" remote="jaosp" revision="aosp-master" />
-  <project path="device/samsung/tuna" name="JAOSP/aosp_device_samsung_tuna" remote="jaosp" revision="aosp-master" />
-  <project path="device/ti/panda" name="JAOSP/aosp_device_ti_panda" remote="jaosp" revision="aosp-master" />
-  <project path="device/aosp/common" name="JAOSP/aosp_device_aosp_common" remote="jaosp" revision="aosp-master" />
-  <project path="vendor/aosp/asus/flo" name="JAOSP/aosp_vendor_aosp_asus_flo" remote="jaosp" revision="aosp-master" />
-  <project path="vendor/aosp/asus/grouper" name="JAOSP/aosp_vendor_aosp_asus_grouper" remote="jaosp" revision="aosp-master" />
-  <project path="vendor/aosp/lge/hammerhead" name="JAOSP/aosp_vendor_aosp_lge_hammerhead" remote="jaosp" revision="aosp-master" />
-  <project path="vendor/aosp/lge/mako" name="JAOSP/aosp_vendor_aosp_lge_mako" remote="jaosp" revision="aosp-master" />
-  <project path="vendor/aosp/samsung/maguro" name="JAOSP/aosp_vendor_aosp_samsung_maguro" remote="jaosp" revision="aosp-master" />
-  <project path="vendor/aosp/samsung/manta" name="JAOSP/aosp_vendor_aosp_samsung_manta" remote="jaosp" revision="aosp-master" />
-  <project path="vendor/aosp/ti/panda" name="JAOSP/aosp_vendor_aosp_ti_panda" remote="jaosp" revision="aosp-master" />
-
-<!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
@@ -279,6 +259,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
+  <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
