@@ -10,22 +10,15 @@
            sync-j="4" />
 
 <!-- JAOSP -->
-  <project path="device/asus/grouper" name="JAOSP/aosp_device_asus_grouper" remote="jaosp" revision="aosp-master" />
   <project path="device/asus/flo" name="JAOSP/aosp_device_asus_flo" remote="jaosp" revision="aosp-master" />
   <project path="device/lge/mako" name="JAOSP/aosp_device_lge_mako" remote="jaosp" revision="aosp-master" />
   <project path="device/lge/hammerhead" name="JAOSP/aosp_device_lge_hammerhead" remote="jaosp" revision="aosp-master" />
-  <project path="device/samsung/maguro" name="JAOSP/aosp_device_samsung_maguro" remote="jaosp" revision="aosp-master" />
   <project path="device/samsung/manta" name="JAOSP/aosp_device_samsung_manta" remote="jaosp" revision="aosp-master" />
-  <project path="device/samsung/tuna" name="JAOSP/aosp_device_samsung_tuna" remote="jaosp" revision="aosp-master" />
-  <project path="device/ti/panda" name="JAOSP/aosp_device_ti_panda" remote="jaosp" revision="aosp-master" />
   <project path="device/aosp/common" name="JAOSP/aosp_device_aosp_common" remote="jaosp" revision="aosp-master" />
   <project path="vendor/aosp/asus/flo" name="JAOSP/aosp_vendor_aosp_asus_flo" remote="jaosp" revision="aosp-master" />
-  <project path="vendor/aosp/asus/grouper" name="JAOSP/aosp_vendor_aosp_asus_grouper" remote="jaosp" revision="aosp-master" />
   <project path="vendor/aosp/lge/hammerhead" name="JAOSP/aosp_vendor_aosp_lge_hammerhead" remote="jaosp" revision="aosp-master" />
   <project path="vendor/aosp/lge/mako" name="JAOSP/aosp_vendor_aosp_lge_mako" remote="jaosp" revision="aosp-master" />
-  <project path="vendor/aosp/samsung/maguro" name="JAOSP/aosp_vendor_aosp_samsung_maguro" remote="jaosp" revision="aosp-master" />
   <project path="vendor/aosp/samsung/manta" name="JAOSP/aosp_vendor_aosp_samsung_manta" remote="jaosp" revision="aosp-master" />
-  <project path="vendor/aosp/ti/panda" name="JAOSP/aosp_vendor_aosp_ti_panda" remote="jaosp" revision="aosp-master" />
 
 <!-- AOSP -->
   <project path="build" name="platform/build" groups="pdk" >
