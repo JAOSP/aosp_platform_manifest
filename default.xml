@@ -2,12 +2,25 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
+           fetch="https://android.googlesource.com/" />
+  <remote  name="jaosp"
+           fetch="https://github.com/" />
   <default revision="l-preview"
            remote="aosp"
            sync-j="4" />
 
+<!-- JAOSP -->
+  <project path="device/asus/flo" name="JAOSP/aosp_device_asus_flo" remote="jaosp" revision="aosp-l-preview" />
+  <project path="device/lge/mako" name="JAOSP/aosp_device_lge_mako" remote="jaosp" revision="aosp-l-preview" />
+  <project path="device/lge/hammerhead" name="JAOSP/aosp_device_lge_hammerhead" remote="jaosp" revision="aosp-l-preview" />
+  <project path="device/samsung/manta" name="JAOSP/aosp_device_samsung_manta" remote="jaosp" revision="aosp-l-preview" />
+  <project path="device/aosp/common" name="JAOSP/aosp_device_aosp_common" remote="jaosp" revision="aosp-l-preview" />
+  <project path="vendor/aosp/asus/flo" name="JAOSP/aosp_vendor_aosp_asus_flo" remote="jaosp" revision="aosp-l-preview" />
+  <project path="vendor/aosp/lge/hammerhead" name="JAOSP/aosp_vendor_aosp_lge_hammerhead" remote="jaosp" revision="aosp-l-preview" />
+  <project path="vendor/aosp/lge/mako" name="JAOSP/aosp_vendor_aosp_lge_mako" remote="jaosp" revision="aosp-l-preview" />
+  <project path="vendor/aosp/samsung/manta" name="JAOSP/aosp_vendor_aosp_samsung_manta" remote="jaosp" revision="aosp-l-preview" />
+
+<!-- AOSP -->
   <project path="build" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -25,9 +38,7 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
-  <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -41,12 +52,9 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" />
-  <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -260,7 +268,7 @@
   <project path="external/vixl" name="platform/external/vixl" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="aosp" revision="master" groups="pdk" />
   <project path="external/xdelta3" name="platform/external/xdelta3" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
