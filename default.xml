@@ -10,7 +10,7 @@
            sync-j="4" />
 
 <!-- JAOSP -->
-  <project path="build" name="JAOSP/aosp_platform_build" remote="jaosp" revision="aosp-lolli">
+  <project path="build" name="aosp_platform_build" remote="jaosp" revision="aosp-lolli">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="device/asus/grouper" name="aosp_device_asus_grouper" remote="jaosp" revision="aosp-lolli" />
