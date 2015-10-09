@@ -2,14 +2,28 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com/" />
+  <remote  name="jaosp"
+           fetch="https://github.com/JAOSP/" />
   <default revision="refs/tags/android-6.0.0_r1"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk" >
+<!-- JAOSP -->
+  <project path="build" name="aosp_platform_build" remote="jaosp" revision="marshmallow">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="device/asus/flo" name="aosp_device_asus_flo" remote="jaosp" revision="marshmallow" />
+  <project path="device/htc/flounder" name="aosp_device_htc_flounder" remote="jaosp" revision="marshmallow" />
+  <project path="device/lge/hammerhead" name="aosp_device_lge_hammerhead" remote="jaosp" revision="marshmallow" />
+  <project path="device/moto/shamu" name="aosp_device_moto_shamu" remote="jaosp" revision="marshmallow" />
+  <project path="device/aosp/common" name="aosp_device_aosp_common" remote="jaosp" revision="marshmallow" />
+  <project path="vendor/aosp/asus/flo" name="aosp_vendor_aosp_asus_flo" remote="jaosp" revision="marshmallow" />
+  <project path="vendor/aosp/htc/flounder" name="aosp_vendor_aosp_htc_flounder" remote="jaosp" revision="marshmallow" />
+  <project path="vendor/aosp/lge/hammerhead" name="aosp_vendor_aosp_lge_hammerhead" remote="jaosp" revision="marshmallow" />
+  <project path="vendor/aosp/moto/shamu" name="aosp_vendor_aosp_moto_shamu" remote="jaosp" revision="marshmallow" />
+
+<!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
@@ -21,11 +35,7 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
-  <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu,broadcom_pdk" />
-  <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu,broadcom_pdk" clone-depth="1" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -43,11 +53,8 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
-  <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,broadcom_pdk" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" />
-  <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" />
-  <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
