@@ -15,12 +15,14 @@
   </project>
   <project path="device/asus/flo" name="aosp_device_asus_flo" remote="jaosp" revision="marshmallow" />
   <project path="device/htc/flounder" name="aosp_device_htc_flounder" remote="jaosp" revision="marshmallow" />
+  <project path="device/lge/bullhead" name="aosp_device_lge_bullhead" remote="jaosp" revision="marshmallow" />
   <project path="device/lge/hammerhead" name="aosp_device_lge_hammerhead" remote="jaosp" revision="marshmallow" />
   <project path="device/moto/shamu" name="aosp_device_moto_shamu" remote="jaosp" revision="marshmallow" />
   <project path="device/huawei/angler" name="aosp_device_huawei_angler" remote="jaosp" revision="marshmallow" />
   <project path="device/aosp/common" name="aosp_device_aosp_common" remote="jaosp" revision="marshmallow" />
   <project path="vendor/aosp/asus/flo" name="aosp_vendor_aosp_asus_flo" remote="jaosp" revision="marshmallow" />
   <project path="vendor/aosp/htc/flounder" name="aosp_vendor_aosp_htc_flounder" remote="jaosp" revision="marshmallow" />
+  <project path="vendor/aosp/lge/bullhead" name="aosp_vendor_aosp_lge_bullhead" remote="jaosp" revision="marshmallow" />
   <project path="vendor/aosp/lge/hammerhead" name="aosp_vendor_aosp_lge_hammerhead" remote="jaosp" revision="marshmallow" />
   <project path="vendor/aosp/moto/shamu" name="aosp_vendor_aosp_moto_shamu" remote="jaosp" revision="marshmallow" />
   <project path="vendor/aosp/huawei/angler" name="aosp_vendor_aosp_huawei_angler" remote="jaosp" revision="marshmallow" />
@@ -39,7 +41,6 @@
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead" />
   <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
