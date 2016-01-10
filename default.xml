@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="jaosp"
            fetch="https://github.com/JAOSP/" />
-  <default revision="refs/tags/android-6.0.0_r26"
+  <default revision="refs/tags/android-6.0.1_r10"
            remote="aosp"
            sync-j="4" />
 
